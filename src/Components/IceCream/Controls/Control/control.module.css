@@ -1,0 +1,54 @@
+.Control {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px 0;
+}
+
+.Label {
+  padding: 10px;
+  font-weight: bold;
+  width: 80px;
+  margin-right: 20px;
+}
+
+.Less {
+  background-color: #32cf66;
+  border: 1px solid #7e7365;
+  font-weight: bold;
+  color: white;
+  width: 7em;
+  cursor: default;
+  margin-right: 15px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.Less:disabled {
+  background-color: #a9a9a9;
+  /* color: black; */
+  cursor: not-allowed;
+  font-weight: normal;
+}
+
+.More {
+  background-color: #8f5e1e;
+  width: 7em;
+  font-weight: bold;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.More:disabled {
+  background-color: #a9a9a9;
+  /* color: black; */
+  cursor: not-allowed;
+  font-weight: normal;
+}
+
+@media (max-width: 500px) {
+  .Control {
+    width: 100%;
+  }
+}

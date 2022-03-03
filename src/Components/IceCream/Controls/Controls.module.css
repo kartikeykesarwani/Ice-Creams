@@ -1,0 +1,39 @@
+.Controls {
+  width: 100%;
+  margin: 0 auto 0 auto;
+  text-align: center;
+  background-color: #65cbdd;
+  padding: 20px 0;
+}
+
+.Order {
+  background-color: #ffff33;
+  padding: 10px 15px;
+  border-radius: 10px;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.Order:disabled {
+  background-color: #e9e990;
+  cursor: not-allowed;
+  font-weight: 300px;
+}
+
+@media (max-width: 500px) {
+  .Controls {
+    width: 100%;
+  }
+}
+
+@media (min-width: 501px) and (max-width: 770px) {
+  .Controls {
+    width: 100%;
+  }
+}
+
+@media (min-width: 771px) and (max-width: 1030px) {
+  .Controls {
+    width: 100%;
+  }
+}
